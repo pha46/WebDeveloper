@@ -8,21 +8,21 @@ In this section, you will find my projects that focus on front-end development t
 
 Project A - Responsive Landing Page: A responsive landing page built using HTML, CSS, and JavaScript. It demonstrates my ability to create engaging user experiences.
 
-Project B - Online Store: An interactive online store developed with React.js and Redux. It showcases my understanding of state management and component-based architecture.
+Project B - .
 
 2. Back-end Development
 This section includes projects that highlight my skills in back-end development. From building RESTful APIs to working with databases, these projects display my ability to handle server-side functionalities effectively.
 
-Project C - Blog API: A RESTful API developed using Node.js, Express, and MongoDB. It demonstrates my knowledge of routing, middleware, and database interactions.
+Project C - .
 
-Project D - E-commerce Backend: A scalable e-commerce backend developed with Django and PostgreSQL. It showcases my understanding of database modeling, authentication, and integration testing.
+Project D - .
 
 3. JavaScript
 Under this section, you will find projects dedicated to JavaScript. These projects explore various concepts, features, and frameworks related to JavaScript programming.
 
 Project E - JavaScript Algorithms and Data Structures: A collection of DSA implementations and algorithmic problem-solving solutions. It showcases my problem-solving abilities and understanding of key data structures.
 
-Project F - React Native Weather App: A mobile weather application developed with React Native. It demonstrates my proficiency in cross-platform app development using JavaScript.
+Project F - .
 
 4. Capstone Project
 Here, I present my Capstone project, which combines the skills and knowledge acquired throughout my web development journey.
