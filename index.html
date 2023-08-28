@@ -1,14 +1,164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-        <title>
-            First Web Page
-        </title>
-        <script type="module" src="main.js"></script>
+    <head>
+        <!--
+            It includes <title>, <meta>, <link>, and <style>
+            favicon, <script>
+        -->
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <title>Reserve</title>
     </head>
-
     <body>
-        Hello World!
-        how are you?
+        <!--
+            Page structure 
+            <header>, <nav>, <main>, <section> & <footer>
+        -->
+        <header>
+            <!--
+                <nav> tag is used to define a section of a webpage that contains navigation links.
+                <a> (Anchor) Tag:The <a> tag is used to create a hyperlink.
+                Inclues href Attribute to specify URL (Uniform Resource Locator) href="http://example.com
+                target Attribute: linked webpage should open when clicked.
+                Common values include: _blank, _self, _parent, _top
+                A custom name: Opens the linked webpage in a specific named target, which can be defined 
+                in the target attribute of another element, such as a frame or iframe.
+            -->
+            <img src="./asset/bus.png" alt="bus" width="75px"/>
+            <div>Reserve</div>
+            <nav>
+                <a href="http://example.com" target="_blank">Home</a>
+                <a href="" target="_blank">Contact us</a>
+                <a href="http://example.com/about" target="_self">About Us</a>
+                <a href="#services" target="_self">Our Services</a>
+            </nav>
+        </header>
+        <main>
+            <!--
+                be unique within a webpage and not be nested within other <main> elements
+            -->
+            <section>
+                <!--
+                    For example: A webpage about a company may have sections for "About Us," "Services," and "Contact Information." Each of these sections can be represented using the <section> tag.
+                -->
+                <p>From:</p>
+                <select name="Depart" id="depart">
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Chennai">Chennai</option>
+                </select>
+                <p>To:</p>
+                <Select name="arrive" id="arrive">
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Chennai">Chennai</option>
+                </Select>
+                <button type="button">Search</button>
+            </section>
+            <section>
+                <h1>Travel with world's largest bus services</h1>
+                <div>
+                  <img src="./assets/bus-vector.png" alt="Bus" width="256px" />
+                  <h3>2000+</h3>
+                  <p>Bus Collection</p>
+                </div>
+                <div>
+                  <img src="./assets/family.png" alt="Family" width="256px" />
+                  <h3>2 Million+</h3>
+                  <p>Happy customers globally</p>
+                </div>
+                <div>
+                  <img src="./assets/ticket.png" alt="Ticket" width="256px" />
+                  <h3>5000+</h3>
+                  <p>Tickets book everyday</p>
+                </div>
+              </section>
+              <section>
+                <div>
+                  <h3>Vatsal Agarwal</h3>
+                  <h4>Customer since 2020</h4>
+                  <p>4.9 *</p>
+                  <p>Amazing travel experience with reserve. Excellent staff</p>
+                </div>
+                <div>
+                  <h3>Rohan Sharma</h3>
+                  <h4>Customer since 2022</h4>
+                  <p>4.3 *</p>
+                  <p>Amazing service. Always a best time with reserve.</p>
+                </div>
+                <div>
+                  <h3>Virat Kohli</h3>
+                  <h4>Customer since 2019</h4>
+                  <p>4.5 *</p>
+                  <p>Bus was clean and the journey was smooth. Reached on time.</p>
+                </div>
+              </section>
+        
+        </main>
+        
+        <div>
+            <!--
+                tag in HTML is a fundamental element used to create a division or section within a webpage.
+                It serves as a container or wrapper that allows you to group and organize other HTML elements, such as text, images, forms, or other HTML tags, together as a cohesive unit.
+                Note: You can apply CSS styles to a <div> element using classes or IDs to control its appearance and behavior.
+            -->
+            <!--type-->
+            <button type="button">Learn More</button><!--Regular button-->
+            <button type="submit">Submit</button><!--submit button in form-->
+            <button type="reset">Reset</button><!--Reset button in form-->
+            <!--disabled-->
+            <button disabled>Disabled Button</button>
+            <!--value-->
+            <button type="submit" value="submit">Submit</button>
+            <img src="path/to/image.jpg" alt="Description" width="300" height="200" title="Image title" class="image-class" id="image-id">
+        </div>
+        
+        
+        <h1>
+            <!--<h1> to <h6> tagsare heading tags used to define different levels of headings in a document.-->
+            Welcome to My web pages
+        </h1>
+        <p>
+            <!--used to define a paragraph element.-->
+            This is a paragraph of text.
+        </p>
+        <img src="image.jpg" alt="Example image">
+        <a href="https://www.example.com">Visit Example.com</a>
+        <!--This is a single-line comment-->
+        <!--
+            this is a multi-line comment
+        -->
+        <div>
+            <!--
+                Dropdown in HTML
+            -->
+        <select name="fruits">
+            <!--
+                Attributes of the select element:
+                name: Specifies the name of the select element, which is used to identify the selected option when the form is submitted.
+                multiple: If specified, allows the user to select multiple options at once.
+                size: Specifies the number of visible options in the dropdown menu.
+                <option> represents a choice that the user can select from the dropdown menu.
+            -->
+            <option value="apple">Apple</option>
+            <option value="banana" selected>Banana</option>
+            <option value="orange">Orange</option>
+            <!--In the above example, the "Banana" option is pre-selected because of the selected attribute. When the form is submitted, 
+                the selected option's value attribute (in this case, "banana") will be sent to the server.-->
+        </select>
+        
+        </div>
+        <footer>
+            <!--More HTML elements go here-->
+            <p>&copy; 2023 MyCompany. All rights reserved</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+          <a href="https://www.twitter.com"><img src="twitter.png" alt="Twitter"></a>
+          <a href="https://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+        </footer>
     </body>
 </html>
