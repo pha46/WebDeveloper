@@ -1,4 +1,12 @@
-### Hi there 👋
+Hi there 👋 Welcome to my GitHub repository!
+🔭 I’m currently working on ...
+  web development projects, which cover various aspects of front-end and back-end development, as well as topics related to JavaScript, Data Structures and Algorithms (DSA), and my Capstone project.
+## Update soon...
+
+Email: -
+LinkedIn: -
+Website: -
+Thank you for visiting my GitHub repository!
 
 Welcome to my GitHub repository! This repository contains my web development projects, which cover various aspects of front-end and back-end development, as well as topics related to JavaScript, Data Structures and Algorithms (DSA), and my Capstone project.
 
@@ -42,7 +50,7 @@ Thank you for visiting my GitHub repository!
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
+- 
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
