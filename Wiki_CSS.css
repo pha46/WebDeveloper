@@ -1,0 +1,48 @@
+/*  selector---Declaration
+            {property:value; property:value;}*/
+/*  Type selector
+    Universal selector:
+    Descendant selector:
+    Class selector:
+    Id selector:
+    Child selector:
+        > Immediate Child Selector
+        + Immediate Sibling Selector:
+        ~ Sibling Selector:
+        Attribute selector:
+        Grouping selector:
+*/
+/*
+    Overriding CSS rules:
+    The overriding rule states that if two declarations conflict, the latter one will override the earlier one.
+    Specificity:
+        The more specific a selector is, the more likely it is to override other declarations.
+    Order:
+         If two declarations conflict, the one that is declared last will override the one that is declared first.
+*/
+/* CSS Units
+    Pixels (px):
+    Ems (em): 1em = 16px
+    Percentages (%):
+    Points (pt): 1pt = 1/72 inch
+    Rems (rem): 1rem = 16px
+    Viewport-percentage lengths (vw, vh):
+        1vw = 1% of browser width
+    Viewport-units (vmin, vmax):
+        1vmin = 1vw/1vh
+*/
+/* CSS Box Model
+    Margin >> Border >> Padding >> Content
+    1. Margin area: The margin area of the CSS box model is the space outside the border and between the margin and the other surrounding elements.
+    2. Border area: Rectangular area around an element and includes four properties: margin, border, padding, and content.
+    3. Padding area: The padding area of the box model is the space between the content and the border of an element.
+    4. Content area: The content area of the Box Model is the area that contains the actual content of the page.
+*/
+/* Width & Height
+    The width property can be applied to various types of elements, such as block-level elements
+    (e.g., <div>, <p>, <h1>) and inline elements (e.g., <span>, <a>, <strong>).
+    width: auto;
+    max-width: 500px;  min-width: 200px;
+    The height and width properties may have the following values as well:
+    
+*/
